@@ -5,6 +5,7 @@ body {
   color: #000;
   font-family: Merryweather;
 }
+{div style="background-color: grey;"}
 h1 {
 	font-family: Arial, sans-serif;
 	font-weight: bold;
