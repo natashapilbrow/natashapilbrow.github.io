@@ -1,0 +1,18 @@
+
+body {
+  background-color: pink;
+  text-align: center;
+  color: #fff;
+  font-family: Merryweather;
+}
+h1 {
+	font-family: Arial, sans-serif;
+	font-weight: bold;
+	font-style: italic;
+	text-decoration: underline;
+	text-transform: uppercase;
+	font-size: 24px
+}
+#slogan{
+	font-size: 36px;
+}
