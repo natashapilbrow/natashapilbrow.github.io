@@ -1,8 +1,6 @@
 body {
   background-color: pink;
   text-align: center;
-  background: "images/tijan.jpg";
-  background-size: cover;
   color: #fff;
   font-family: Merryweather;
 }
@@ -13,4 +11,7 @@ h1 {
 	text-decoration: underline;
 	text-transform: uppercase;
 	font-size: 24px
+}
+#slogan{
+	font-size: 36px;
 }
