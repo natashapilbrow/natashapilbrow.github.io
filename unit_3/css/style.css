@@ -1,17 +1,27 @@
-
+* { margin:0; padding:0; box-sizing:border-box; }
 body {
   background-color: pink;
-  text-align: center;
   color: #000;
-  font-family: Merryweather;
+  font-family: Merryweather, serif;
 }
-{div style="background-color: grey;"}
+#splash {
+	background: url(../images/tijan.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	height:90vh;
+	padding:10em 0 0;
+	text-align:center;
+}
+#splash div {
+	background:purple;
+	color:#fff;
+	display:inline-block;
+	padding:2em;
+}
 h1 {
 	font-family: Arial, sans-serif;
 	font-weight: bold;
 	font-style: italic;
 	text-decoration: underline;
 	text-transform: uppercase;
-	font-size: 24px
-	text-align: center
 }
