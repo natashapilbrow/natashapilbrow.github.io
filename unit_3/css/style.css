@@ -1,8 +1,8 @@
 * { margin:0; padding:0; box-sizing:border-box; }
 body {
-  background-color: pink;
+  background-color: white;
   color: #000;
-  font-family: Merryweather, serif;
+  font-family: 'Open Sans', sans-serif;
 }
 #splash {
 	background: url(../images/tijan.jpg);
@@ -13,7 +13,7 @@ body {
 	text-align:center;
 }
 #splash div {
-	background:purple;
+	background:grey;
 	color:#fff;
 	display:inline-block;
 	padding:2em;
