@@ -1,0 +1,27 @@
+* { margin:0; padding:0; box-sizing:border-box; }
+body {
+  background-color: white;
+  color: #000;
+  font-family: 'Open Sans', sans-serif;
+}
+#splash {
+	background: url(../images/tijan.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	height:90vh;
+	padding:10em 0 0;
+	text-align:center;
+}
+#splash div {
+	background:grey;
+	color:#fff;
+	display:inline-block;
+	padding:2em;
+}
+h1 {
+	font-family: 'Cormorant Garamond', serif;
+	font-weight: bold;
+	font-style: italic;
+	text-decoration: underline;
+	text-transform: uppercase;
+}
