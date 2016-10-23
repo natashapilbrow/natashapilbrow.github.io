@@ -1,47 +1,30 @@
-* { margin:0; padding:0; box-sizing:border-box; }
 body {
-  background-color: grey;
-  color: #000;
-  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
 }
-#splash {
-	background: url(../image/tijan.jpg);
-	background-size:cover;
-	background-repeat:no-repeat;
-	height:90vh;
-	padding:10em 0 0;
-	text-align:center;
+h1,h2 {
+  text-transform: uppercase;
+  border-bottom: 4px solid black;
+  display: inline-block;
 }
-#splash div {
-	background:grey;
-	color:#fff;
-	display:inline-block;
-	padding:2em;
+h1 {
+  font-size: 2em;
 }
-h1, h2, h3, {
-	font-variant: small-caps;
-	font-family: 'Cormorant Garamond', serif;
-	font-weight: bold;
-	font-style: italic;
-	text-decoration: underline;
-	text-transform: uppercase;
-	text-align: center;
-	}
-h4, {
+h2 {
   font-size: 1.5em;
   padding: .8em 0;
 }
+img {
+  display: block;
+  margin: 0 auto;
+}
 ul {
-	text-align: left;
-	text-decoration: inherit;
-	text-orientation: initial;
-	list-style: tibetan;
-	border-style: bold;
-	margin: 0;
-    padding: 0;
+  list-style:none;
+  margin: 0;
+  padding: 0;
 }
 footer {
   text-align: center;
   padding: 1em 0;
 }
+
 	
