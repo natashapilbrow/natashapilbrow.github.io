@@ -18,7 +18,7 @@ body {
 	display:inline-block;
 	padding:2em;
 }
-h1, h2, {
+h1, h2, h3, {
 	font-variant: small-caps;
 	font-family: 'Cormorant Garamond', serif;
 	font-weight: bold;
@@ -27,7 +27,7 @@ h1, h2, {
 	text-transform: uppercase;
 	text-align: center;
 	}
-h3, h4, {
+h4, {
   font-size: 1.5em;
   padding: .8em 0;
 }
