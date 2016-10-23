@@ -27,6 +27,9 @@ h1, h2, h3, {
 	text-transform: uppercase;
 	text-align: center;
 	}
+	span {
+		font-weight: bold;
+	}
 h4, {
   font-size: 1.5em;
   padding: .8em 0;
