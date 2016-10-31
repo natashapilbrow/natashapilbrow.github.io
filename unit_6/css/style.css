@@ -28,4 +28,10 @@ div / section {
     border: 1px black solid;
     padding: 20px;
 }
+#mission {
+  float: left;
+}
+#booking {
+  float: right;
+}
 	
