@@ -66,4 +66,17 @@ li {
     clear: both;
     height: 0;
 }
+@media screen only and (min-width: 500px) {
+body {
+font-size: 12px;
+}
+body {
+font-size: 10px;
+}
+
+.em-unit {
+background-color: #FF6A5E;
+width: 4em;
+height: 2em;
+}
 	
