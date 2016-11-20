@@ -1,13 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond|Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond');
+
 header {
     background-color: #FFED74;
     border: 1px black solid;
     padding: 20px;
+    position: relative;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.logo {
+    display: inline-block;
+    width: 400px;
 }
 nav {
     background-color: #E8C66A;
     border: 1px black solid;
     padding: 20px;
-    float: right;
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    font-family: 'Open Sans', sans-serif;
 }
 nav a { 
     text-decoration: none;
@@ -25,10 +38,11 @@ div {
     border: 1px black solid;
     padding: 20px;
 }
-##two_column {
+#two_column {
     background-color: #FFB7CF;
     border: 1px black solid;
     padding: 20px;
+    font-family: 'Cormorant', serif;
 }
 #left {
     background-color: violet;
@@ -36,12 +50,20 @@ div {
     padding: 20px;
     float: left;
     width: 30%;
+    color: white;
+    background: url('../image/tijan.jpg');
+    background-size: cover;
+    background-position: center center;
 }
 #right {
     background-color: pink;
     border: 1px black solid;
     padding: 20px;
     float: right;   
+    width: 30%;
+}
+
+.tijan {
     width: 30%;
 }
 ul {
@@ -66,17 +88,15 @@ li {
     clear: both;
     height: 0;
 }
-@media screen only and (min-width: 500px) {
-body {
-font-size: 12px;
-}
-body {
-font-size: 10px;
-}
 
-.em-unit {
-background-color: #FF6A5E;
-width: 4em;
-height: 2em;
+@media screen and (max-width: 500px) {
+    body {
+        font-size: 10px;
+        border: 3px solid red;
+    }
+
+    .em-unit {
+    background-color: #FF6A5E;
+    width: 4em;
+    height: 2em;
 }
-	
